@@ -24,7 +24,7 @@ function Card (props){
         lerInformacoes();
     }, []);
 
-    if (city.length == 0){
+    if (city.length === 0){
         <h1>Loading...</h1>
     }
     else{
